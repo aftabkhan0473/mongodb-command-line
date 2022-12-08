@@ -1,0 +1,17 @@
+***** Mongo db Command line ****
+
+use aftabKart
+MongoDB Help : db.help
+Show All Databases : show dbs
+Create new database : use DATABASE_NAME
+Know your current selected database : db
+Drop(delete) database : db.dropDatabase()
+Create collection : db.createCollection("name")
+To check collections list : Show collections;
+Drop(delete) collection : db.COLLECTION_NAME.drop();
+Insert document in collection : db.COLLECTION_NAME.insert(document);
+Get collection document : db.COLLECTION_NAME.find();
+Update document : db.COLLECTION_NAME.update(SELECTION_CRITERIA, UPDATED_DATA);
+Save document : db.COLLECTION_NAME.save({_id:ObjectId(),NEW_DATA});
+Delete document : db.COLLECTION_NAME.remove(DELLETION_CRITTERIA);
+
